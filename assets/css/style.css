@@ -19,6 +19,7 @@
     --font-base2: "Oswald";
 }
 
+
 /* SETTINGS */
 
 .settings-container {
@@ -408,8 +409,53 @@ a {
   margin-left: 0;
 }
 
+.btn-add {
+  width: 100%;
+  margin-left: 0;
+  background-color: var(--color-base);
+}
+
+.upload {
+  padding-top: 9px;
+}
+
+.form-control::-webkit-file-upload-button {
+  background-color: var(--color-base);
+  color: var(--color-body);
+  font-family: var(--font-base);
+  border: 1px solid var(--color-brand);
+  border-radius: 5px;
+}
+
+
 footer {
   background-color: var(--color-base2);
+}
+
+/* GLOBAL FORMS */
+
+.form-control {
+  background-color: var(--color-base1);
+  border-color: var(--color-base1);
+  color: var(--color-body);
+}
+
+.form-control:focus {
+  border-color: var(--color-brand);
+  box-shadow: none;
+  background-color: var(--color-base1);
+}
+
+.form-control::placeholder {
+  color: var(--color-body);
+}
+
+input.form-control {
+  height: 44px;
+}
+
+textarea {
+  resize: none;
 }
 
 /* SOCIAL ICONS */
