@@ -17,6 +17,9 @@
   <!-- STYLE.CSS LINK -->
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="icon" href="/assets/images/cat-icon.png">
+  <!-- MATERIAL ICONS LINK -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <title>JM Reyes | Webpage</title>
 </head>
 
@@ -84,21 +87,27 @@
 
           <div class="container">
             <form action="">
-              <div class="form-group col-lg-12 my-lg-4">
+              <div class="form-group col-lg-12 my-4">
                 <input type="text" class="form-control" placeholder="Enter campus name">
               </div>
-              <div class="form-group col-lg-12 my-lg-4">
+              <div class="form-group col-lg-12 my-4">
                 <input type="text" class="form-control" placeholder="Enter school years">
               </div>
-              <div class="form-group col-lg-12 my-lg-4">
-                <label for="" class="m-lg-1">Upload project picture</label>
-                <input type="file" class="form-control mt-lg-2 upload" name="" id="">
-              </div>     
-              <div class="form-group col-lg-12 my-lg-4">
+              <div class="form-group col-lg-12 my-4">
+                <label for="" class="mt-lg-0 mb-lg-2">Upload project picture</label>
+                <input type="file" name="" id="file" accept="image/jpeg, image/png">
+                <label class="upload-file-lbl" for="file">
+                  <i class="material-icons">add_photo_alternate</i> &nbsp;
+                  Choose a Photo
+                </label>
+              </div>
+              
+              <div class="form-group" style="margin-top: 80px;">
                 <button type="submit" class="button-27 btn-add">
                   Add Education
                 </button>
-              </div>          
+              </div>    
+
             </form>
           </div>
 
