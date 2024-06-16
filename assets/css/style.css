@@ -404,6 +404,15 @@ a {
   border-radius: 5px;
 }
 
+.go-back {
+  margin-left: -5%;
+}
+
+.go-back .button-27 {
+  width: auto;
+  border-radius: 50px;
+}
+
 /* CARD */
 
 .card-custom .card-custom-image {
